@@ -1,0 +1,544 @@
+@font-face {
+    font-family: AlfaSlabOne;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+  }
+  @font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* text-decoration: none; */
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url("./images/background.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    height: 20%;
+}
+.logo{
+    position: relative;
+    left: 40px;
+}
+.navbar{
+    position: relative;
+    right: 40px;
+}
+.navbar .navbar_contact{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding: 10px;
+}
+.navbar .navbar_contact .scoti{}
+.navbar .navbar_contact .phone{
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+.navbar .navbar_menu{}
+.navbar .navbar_menu ul{
+    z-index: 1;
+}
+.navbar .navbar_menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+.navbar .navbar_menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: BebasNeue;
+    /* padding: 5px; */
+    letter-spacing: 5px;
+}
+.navbar .navbar_menu ul li a:hover{
+    cursor: pointer;
+    color: #bf2222;
+    position: relative;
+}
+/* ##################
+############# background content ############
+########################### */
+article{
+    width: 100%;
+    height: 80%;
+}
+.content {
+    color: #3d2514;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* height: 80%; */
+    font-family: AlfaSlabOne;
+    height: 100%;
+}
+.content .content_back {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    height: 50%;
+}
+.content .content_back p{
+    border: 2px dashed black;
+    font-family: BebasNeue;
+    padding: 5px;
+    letter-spacing: 0px;
+    width: max-content;
+}
+.content .content_back h1 {
+    
+    font-size: 70px;
+    
+    text-shadow: 2px 2px white;
+    text-transform: uppercase;
+}
+.content .content_back h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+    text-transform: uppercase;
+}
+
+
+.content .images_back {
+    position: relative;
+    left: 0px;
+    top: -15px;
+}
+.content .images_back img{
+    height: 90%;
+}
+
+/* ##################
+############# Header close ############
+########################### */
+
+/* ##################
+############# Main start ############
+########################### */
+.burger_sec {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    top: 60px;
+    font-family: BebasNeue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.burger_sec .single_bur {
+    position: relative;
+    left: 10px;
+    height: 88%;
+}
+.burger_sec .single_bur .burger_2 {
+    position: relative;
+}
+.burger_3, .burger_4{
+    height: 193px;
+}
+.burger_sec .single_bur .burger_2 img{}
+/* .burger_sec .single_bur .burger_2 h2,h3{
+ */
+}
+
+.burger_sec .daboule_bur{
+    position: relative;
+    right: 10px;
+    height: 85%;
+}
+.burger_sec .daboule_bur .burger_3{
+    position: relative;
+}
+.burger_sec .daboule_bur .burger_4 {
+    position: relative;
+    top: 35px;
+}
+.burger_sec .daboule_bur .burger_3 img{}
+.burger_sec .daboule_bur .burger_4 img{}
+
+.burger_sec h3,h2{
+    position: relative;
+    /* color: #fff; */
+}
+.burger_sec h3{
+    font-size: 20px;
+}
+.burger_sec h2{
+    font-size: 35px;
+}
+.burger_sec .single_bur h3, .burger_sec .single_bur h2{
+    bottom: 400px;
+    left: 20px;
+}
+.burger_sec .daboule_bur h3, .burger_sec .daboule_bur h2{
+    left: 20px;
+    bottom: 180px;
+}
+/* ##################
+############# Main start 2 ############
+########################### */
+.burger_sec_2 {
+    /* width: 70%; */
+    text-align: center;
+    top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 700px;
+    color: #3d2514;
+}
+.burger_sec_2 h2 {
+    text-transform: uppercase;
+    font-family: BebasNeue;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.burger_sec_2 img{
+    height: 240px;
+}
+.content_2 {
+    
+    text-align: center;
+    width: 62%;
+}
+
+.burger_sec_2 p{
+    font-family: Montserrat-Regular;
+}
+.content_2 button {
+    font-family: BebasNeue;
+    font-size: 20px;
+    background-color: #ffc045;
+    padding: 10px 20px;
+    color: #3d2514;
+    
+    
+    
+}
+.content_2 h2 {
+    font-size: 40px;
+    font-family: AlfaSlabOne;
+    color: #3d2514;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.content_2 p{
+    /* font-family: Montserrat-Regular; */
+    color: #3d2514;
+    position: relative;
+    top: 30px;
+}
+.burger_content_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.burger_5, .burger_6, .burger_7{
+    width: 30%;
+    text-align: center;
+}
+.burger_5 button, .burger_6 button, .burger_7 button{
+    background-color: #bf2222;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+/* ##################
+############# Footer section 1 ############
+########################### */
+.containeer {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    top: 88px;
+}
+.cursor {
+    display: flex;
+    width: 95%;
+    height: 40%;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    color: #3d2514;
+    box-shadow: 30px 30px 20px 30px rgb(238, 236, 236);
+}
+/* .cursor img{
+    height: 350px;
+} */
+.cursor .cusor_cont{
+    width: 34%;
+}
+/* .cusor_cont, .cursor_img{
+    height: 80%;
+    width: 46%;
+} */
+.cursor .cusor_cont h4 {
+    font-family: BebasNeue;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.cursor .cusor_cont h2{
+    font-family: AlfaSlabOne;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.cursor .cusor_cont p{
+    font-family: Montserrat-Regular;
+    line-height: 25px;
+    margin-top: 25px;
+}
+/* ##################
+############# Reservation ############
+########################### */
+
+.reservation{
+    position: relative;
+    top: 130px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.content_res{
+    text-align: center;
+}
+.content_res h3 {
+    font-family: BebasNeue;
+    font-size: 24px;
+    font-weight: inherit;
+    letter-spacing: 2px;
+}
+.content_res h2{
+    font-family: AlfaSlabOne;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.form_res {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+.form_res input{
+    height: 35px;
+    width: 285px;
+    padding: 10px;
+    font-family: BebasNeue;
+    font-size: 15px;
+    color: cadetblue;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
+    border-radius: 7px;
+    letter-spacing: 2px;
+}
+.form_res button {
+    height: 50px;
+    width: 305px;
+    padding: 10px;
+    font-family: BebasNeue;
+    font-size: 15px;
+    color: #fff;
+    background-color: #bf2222;
+    color: #ffffff;
+    font-family: AlfaSlabOne;
+
+    
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.reserve_1 {
+    position: relative;
+    bottom: 300px;
+    left: -15px;
+}
+.reserve_2 {
+    position: relative;
+    left: -180px;
+    top: 40px;
+}
+.reserve_3, .reserve_4{
+    position: relative;
+    left: -200px;
+}
+.reserve_4{}
+.reserve_5 {
+    position: relative;
+    left: -203px;
+    top: 155px;
+}
+/* .reserve_5 img {
+    height: 700px;
+} */
+
+/* ################# 
+######### Bottom Footer ######
+############### */
+footer {
+    width: 90%;
+    height: 525px;
+    background-image: url(./images/footer_back.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    bottom: -440px;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+}
+.contai{
+    margin: 0 auto;
+    width: 95%;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-evenly;
+    top: -100px;
+    position: relative;
+}
+.foot_cont{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+.addr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.addr .foot_cont_1 > img, h1 {
+    
+
+}
+.logo_trans {
+    top: -70px;
+    position: relative;
+}
+.logo_trans img{}
+.footer_conten{}
+
+.copy_social{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+    position: relative;
+    top: 100px;
+}
+.social{
+    display: flex;
+}
+.foot_cont p, .foot_cont .addr{
+    width: 40%;
+}
+.foot_cont p{
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.foot_cont_1, .foot_cont_2{
+    display: flex;
+    padding-top: 10px;
+    
+}
+.foot_cont_1 h5, .foot_cont_2 h5{
+    font-family: BebasNeue;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.foot_cont_1 img, .foot_cont_2 img {
+    position: relative;
+    top: -9px;
+    padding: 5px;
+}
+.foot_cont_1 >h5{
+    margin-left: 20px;
+}
+.foot_cont_2 >h5{
+    margin-left: 20px;
+}
+.social div{
+    padding: 5px;
+    transition: 0.5s;
+
+}
+.social div:hover{
+    cursor: pointer;
+    background-color: rgb(122, 15, 15);
+    border-radius: 20%;
+}
+.copy_social .copy h6 {
+    font-family: BebasNeue;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
